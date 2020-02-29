@@ -2,8 +2,21 @@
     background-color: red;
 }
 
-body {
-    background-image: url("../img/bgimage.jpg");
+#icon {
+    width: 180px;
+    height: 100px;
+}
+
+header {
+    width: 600px;
+    height: 100px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -300px;
+    color: limegreen;
+    font-weight: bold;
 }
 
 main {
@@ -15,6 +28,22 @@ main {
     margin-top: -350px;
     margin-left: -300px;
     color: white;
+}
+
+footer {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    width: 600px;
+    color: white;
+    margin-left: -300px;
+    text-align: center;
+    border-top: deepskyblue;
+    border: solid;
+}
+
+body {
+    background-image: url("../img/bgimage.jpg");
 }
 
 .startStop {

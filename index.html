@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+ Mattias Liljegren
+ mali1720
+ mali1720@student.miun.se
+ -->
+
+<html lang="en">
+<head>
+    <script src="js/main.js"> </script>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<main>
+    <section class="selection">
+        <select class="texts" name="texts">
+            <option value="">Select One …</option>
+            <option value="time">Förändringens Tid</option>
+            <option value="cloud">Moln</option>
+            <option value="dream">Jag har en dröm</option>
+        </select>
+    </section>
+    <section class="textGame">
+        <section class="textInfo">
+            <p class="title" readonly></p>
+            <p class="author" readonly></p>
+        </section>
+        <section class="textBox">
+
+        </section>
+    </section>
+    <section class="inputTyping">
+        <form>
+            <input type="text" class="letterBox" name="letterBox" value="" id="letterBox"><br>
+            <img class="startStop" src="img/start.png" alt="image"/>
+        </form>
+    </section>
+    <section class="points">
+        <ul class="topList">
+            <li class="listItem"><p class="pointCounter" id="gWpm"></p></li>
+            <li class="listItem"><p class="pointCounter" id="nWpm"></p></li>
+        </ul>
+        <ul class="bottomList">
+            <li class="listItem"><p class="pointCounter" id="accuracy"></p></li>
+            <li class="listItem"><p class="pointCounter" id="errors"></p></p></li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>

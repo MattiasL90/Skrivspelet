@@ -92,6 +92,7 @@ body {
     left: 50%;
     margin-top: -50px;
     margin-left: -175px;
+    padding-top: 30px;
 }
 
 .textBox {
@@ -135,4 +136,5 @@ body {
     left: 50%;
     margin-top: -12.5px;
     margin-left: -100px;
+    padding-top: 30px;
 }

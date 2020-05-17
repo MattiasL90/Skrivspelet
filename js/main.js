@@ -47,14 +47,15 @@ function countTimer(){
 function startStop() {
     let startStopButton = document.querySelector('.startStop');
     startStopButton.addEventListener('click', event => {
+        debugger
         let startStopButton = document.querySelector('.startStop');
         // Spelet har inte varit igång
         if (started === false) {
             // Byter bild
-            startStopButton.setAttribute('src', 'img/stop.png')
+            startStopButton.setAttribute('src', 'img/stop.png');
             started = true;
             // Påbörjar räkningen av tid
-            time = setInterval(countTimer, 1000)
+            time = setInterval(countTimer, 1000);
             // Startar eventlistner på textinput
             checkTyping();
         }

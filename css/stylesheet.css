@@ -88,7 +88,7 @@ body {
 
 .points {
     position: fixed;
-    top: 72%;
+    top: 77%;
     left: 50%;
     margin-top: -50px;
     margin-left: -175px;
@@ -130,11 +130,12 @@ body {
 
 .inputTyping {
     width: 200px;
-    height: 25px;
+    height: 100px;
     position: fixed;
     top: 60%;
     left: 50%;
     margin-top: -12.5px;
     margin-left: -100px;
     padding-top: 30px;
+    padding-bottom: 10px;
 }
